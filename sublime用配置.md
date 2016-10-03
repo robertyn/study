@@ -108,6 +108,13 @@ Preferences → Key Bindings – User
 
 ```
 
+# 自动保存插件
+- auto save
+
+```
+{ "keys": ["ctrl+alt+s"], "command": "auto_save" }
+
+```
 
 
 
