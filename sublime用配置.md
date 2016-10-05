@@ -17,6 +17,8 @@
 
 - html/css/js prettify(可以格式化html/css/js)
 
+- 很好用快捷键 ` ctrl+shift+h `
+
 - prettyJSON(仅仅可以格式化json)
 
 - standarformat(不好用)
@@ -213,6 +215,93 @@
 - 配色在线编辑
 
 ` http://tmtheme-editor.herokuapp.com/#!/editor/theme/Monokai `
+
+- 匹配括号显示
+
+  BracketHighlighter：显示我在哪个括号内
+
+# 括号高亮显示(BracketHighlighter)
+
+```
+{
+  "bracket_styles": {
+    "default": {
+      "icon": "dot",
+      // "color": "entity.name.class",
+      "color": "brackethighlighter.default",
+      "style": "highlight"
+    },
+    "unmatched": {
+      "icon": "question",
+      "color": "brackethighlighter.unmatched",
+      "style": "highlight"
+    },
+    "curly": {
+      "icon": "curly_bracket",
+      "color": "brackethighlighter.curly",
+      "style": "highlight"
+    },
+    "round": {
+      "icon": "round_bracket",
+      "color": "brackethighlighter.round",
+      "style": "highlight"
+    },
+    "square": {
+      "icon": "square_bracket",
+      "color": "brackethighlighter.square",
+      "style": "highlight"
+    },
+    "angle": {
+      "icon": "angle_bracket",
+      "color": "brackethighlighter.angle",
+      "style": "highlight"
+    },
+    "tag": {
+      "icon": "tag",
+      "color": "brackethighlighter.tag",
+      "style": "highlight"
+    },
+    "single_quote": {
+      "icon": "single_quote",
+      "color": "brackethighlighter.quote",
+      "style": "highlight"
+    },
+    "double_quote": {
+      "icon": "double_quote",
+      "color": "brackethighlighter.quote",
+      "style": "highlight"
+    },
+    "regex": {
+      "icon": "regex",
+      "color": "brackethighlighter.quote",
+      "style": "outline"
+    }
+  }
+}
+
+```
+
+# emmet,但标签闭合
+
+` http://jingyan.baidu.com/article/fedf073755e95635ac8977ac.html `
+
+```
+"syntaxProfiles": {
+// Enable XHTML dialect for HTML syntax
+// "html": "xhtml"
+//
+// Write chained CSS abbreviations on single line:
+// "css": "css_line"
+// force XHTML profile for HTML syntax
+   "html": "xhtml",
+   // create our own profile for XML
+   "xml": {
+       "tag_case": "upper",
+       "attr_quotes": "single"
+   }
+}
+
+```
 
 
 
